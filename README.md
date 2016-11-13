@@ -7,6 +7,8 @@
 
 `ember-let` is an addon for binding variables to template contexts in Ember. It behaves much like the `with` helper, but lets you bind an arbitrary number of variables, including standalone values, hashes, and class instances. However, unlike `with`, the `let` helper will yield its block even if the bound values are `undefined`, `null`, or `[]`. This has the benefit of allowing the user to treat the block values as true variable bindings rather than simply aliases to existing values.
 
+You can see an example application that compares `with` and `let` helpers, [here](https://github.com/ember-montevideo/ember-let-example).
+
 See examples below:
 
 **Bind basic values**
